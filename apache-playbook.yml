@@ -1,6 +1,6 @@
 ---
 - name: "Play 1- cgi website configuration"
-  hosts: webservers
+  hosts: localhost
   become: yes
   tasks:
     - name: "install apache"
